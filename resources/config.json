@@ -1,0 +1,13 @@
+{"destination" : "/location/of/backup/files",
+    "sites" : [
+        {"name":"my-first-site.org",
+            "file_location": "/location/of/www/directory",
+            "databases": [
+                { "name": "database_name_1",
+                  "pass": "password",
+                  "user": "user",
+                  "host": "localhost"}
+            ]
+        }
+    ]
+}
